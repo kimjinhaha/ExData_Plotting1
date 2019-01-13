@@ -1,6 +1,4 @@
-setwd("C:/ProgrammingProjects/Coursera/Course 4/week1/ExData_Plotting1-master")
-
-#reading the downloaded data from the course website
+#reading the downloaded data from the course website, the data should be located in the same folder
 data <- read.table("household_power_consumption.txt", header = TRUE, sep =";", stringsAsFactors=FALSE, dec = ".")
 
 #subsetting data that are only necessary for the exploratory analysis
